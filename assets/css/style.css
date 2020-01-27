@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(132, 214, 122);
+    height: 10vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color: rgba(29, 28, 27, 0.719);
+
+}
+
+
+
+main{
+    color: whitesmoke;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.fishfinderContainer{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.container{
+    width: 100vw;
+    min-height: 80vh;
+
+    
+}
+.swSpeices{
+    background-color: rgb(28, 173, 28);
+}
+#map{
+    height: 80vh;
+
+}
+
+body{
+    background-color: green;
+}
+
+footer{
+    background-color: rgb(132, 214, 122);
+    height: 10vh;
+}
+
+
+
+.row {
+    display: flex;
+    width: 100%;
+ 
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  #fishidcolumn.column {
+    flex: 25%;
+    padding: 5px;
+  }
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+
+
+
